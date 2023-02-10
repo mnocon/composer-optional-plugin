@@ -1,0 +1,19 @@
+{
+    "name": "mareknocon/composer-optional-plugin",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mareknocon\\ComposerOptionalPlugin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marek Nocoń",
+            "email": "mnocon@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "php-http/discovery": "1.15.1"
+    }
+}
